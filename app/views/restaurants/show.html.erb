@@ -1,0 +1,20 @@
+<h1><%= @restaurant.name %></h1>
+
+<h4>Address:&nbsp</h4> <%= @restaurant.address %>
+<h4>Phone Number:&nbsp</h4> <%= @restaurant.phone_number %>
+<h4>Cusine:&nbsp</h4> <%= @restaurant.category %>
+<br>
+
+<%= link_to "Back", restaurants_path %>
+
+
+
+<%# <%= render "form", restaurant: @restaurant %>
+
+
+<%# <%= link_to "Delete",
+  task_path(@task),
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+%>
+<%# <%= link_to "Edit", edit_task_path(@restaurant.id) %>
+<%# <%= link_to "Back", restaurants_path %>
